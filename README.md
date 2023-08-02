@@ -1,6 +1,6 @@
 # ecomatch
 
-Created by Ashwagandhae and Drbananapants!
+Created by L bozo Julian and Drbananapants!
 
 Everything you need to build a Svelte app, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
