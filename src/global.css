@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--back);
+	color: var(--text);
+	font-size: 1rem;
+}
+
+:root {
+	--text: black;
+	--text-button: white;
+	--text-weak: rgb(136, 136, 136);
+	--text-accent: hsl(163, 78.2%, 30%);
+	--text-accent-1: hsl(196, 74%, 39%);
+
+	--back: rgb(236, 236, 236);
+	--back-1: white;
+	--back-1-hover: rgb(246, 246, 246);
+	--back-1-active: rgb(226, 226, 226);
+
+	--back-button: rgb(26, 26, 26);
+	--back-button-hover: rgb(56, 56, 56);
+	--back-button-active: rgb(86, 86, 86);
+
+	--pad: 1rem;
+	--trans: 0.2s;
+	--rad: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: white;
+		--text-button: white;
+		--text-weak: rgb(166, 166, 166);
+		--text-accent: hsl(163, 78.2%, 51.4%);
+		--text-accent-1: hsl(196, 78%, 51%);
+
+		--back: rgb(26, 26, 26);
+		--back-1: rgb(56, 56, 56);
+		--back-1-hover: rgb(86, 86, 86);
+		--back-1-active: rgb(116, 116, 116);
+
+		--back-button: rgb(56, 56, 56);
+		--back-button-hover: rgb(86, 86, 86);
+		--back-button-active: rgb(116, 116, 116);
+	}
+}
+
+button {
+	color: inherit;
+	border: none;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+
+.accent {
+	color: var(--text-accent);
+}
+
+.accent-1 {
+	color: var(--text-accent-1);
+}
