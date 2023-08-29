@@ -1,3 +1,5 @@
+![Image](demo.jpg)
+
 # Ecomatch
 
 Find climate organizations that match your preferences with full control of your data.
