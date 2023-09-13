@@ -37,6 +37,7 @@
 	"dependencies": {
 		"@spruceid/ssx": "^2.1.0",
 		"@spruceid/ssx-server": "^2.0.0",
+		"@sveltejs/adapter-vercel": "^3.0.3",
 		"gh-pages": "^6.0.0"
 	}
 }
