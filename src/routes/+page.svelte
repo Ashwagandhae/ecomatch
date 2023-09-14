@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { SSX } from '@spruceid/ssx';
+	import spruceid from '@spruceid/ssx';
 	import Login from './Login.svelte';
 	import App from './App.svelte';
 
-	let ssxProvider: SSX | null = null;
+	let ssxProvider: spruceid.SSX | null = null;
 
 	const ssxHandler = async () => {
-		const ssx = new SSX({
+		const ssx = new spruceid.SSX({
 			providers: {
 				server: {
 					host: '/api'

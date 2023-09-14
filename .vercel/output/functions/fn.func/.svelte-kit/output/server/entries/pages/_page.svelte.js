@@ -1,5 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../chunks/ssr.js";
-import { SSX } from "@spruceid/ssx";
+import spruceid from "@spruceid/ssx";
 import { w as writable } from "../../chunks/index2.js";
 const Button_svelte_svelte_type_style_lang = "";
 const css$2 = {
@@ -79,7 +79,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let address;
   let ssxProvider = null;
   const ssxHandler = async () => {
-    const ssx = new SSX({
+    const ssx = new spruceid.SSX({
       providers: { server: { host: "/api" } },
       modules: {
         storage: {
